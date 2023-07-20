@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  border-width: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+.card {
+  width: 303px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 3px 3px 2px 0px rgba(121, 127, 255, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 16px 0px;
+  padding: 10px;
+  flex-wrap: nowrap;
+}
+
+.card__img-container {
+  overflow: hidden;
+  border-radius: 10px;
+  width: 100%;
+}
+
+
+
+.card__body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 14px 0px;
+  padding: 0px;
+  flex-wrap: nowrap;
+}
+
+.card__tags {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+  padding: 0px;
+  flex-wrap: nowrap;
+}
+
+.card__tag {
+  border-radius: 20px;
+  border: 1px solid rgba(212, 212, 212, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  gap: 0px;
+  padding: 2px 5px;
+  flex-wrap: nowrap;
+
+  color: rgba(70, 94, 118, 1);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+}
+
+.card__tag {
+  border-radius: 20px;
+  border: 1px solid rgba(212, 212, 212, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  gap: 0px;
+  padding: 2px 5px;
+  flex-wrap: nowrap;
+}
+
+.card__text {
+  align-self: center;
+  color: rgba(111, 111, 111, 1);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.card__button {
+  border-radius: 20px;
+  background-color: rgba(224, 239, 255, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  gap: 0px;
+  padding: 12px 20px;
+  flex-wrap: nowrap;
+  margin: 0px 0px 10px;
+  align-self: center;
+
+  color: rgba(0, 121, 255, 1);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
